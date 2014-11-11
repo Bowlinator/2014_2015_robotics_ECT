@@ -1,5 +1,10 @@
-
-
+/**
+ * @file MyRobot.h
+ * @brief this controller contrals the robot using odometry
+ *
+ * @autor Eduardo Cubells Talavera <100291101@alumnos.uc3m.es>
+ * @date 11/11/2014
+ */
 #include <iostream>
 #include <cmath>
 #include <webots/DifferentialWheels.hpp>
@@ -49,7 +54,12 @@ class MyRobot : public DifferentialWheels {
          * @brief User defined function for initializing and running the template class.
          */
         void run();
-
+	
+	/**
+         * @brief Function for converting bearing vector from compass to angle (in degrees).
+         * @param in_vector Input vector with the values to convert.
+         * @return The value in degrees.
+         */
         double convert_bearing_to_degrees(const double* in_vector);
 };
 

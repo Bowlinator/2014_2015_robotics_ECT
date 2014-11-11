@@ -1,3 +1,10 @@
+/**
+ * @file MyRobot.cpp
+ * @brief this controller contrals the robot using odometry
+ *
+ * @autor Eduardo Cubells Talavera <100291101@alumnos.uc3m.es>
+ * @date 11/11/2014
+ */
 #include "MyRobot.h"
 
 //////////////////////////////////////////////
