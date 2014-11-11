@@ -9,8 +9,8 @@ WorldInfo {
   northDirection -1 0 -1
 }
 Viewpoint {
-  orientation 0.382378 0.86838 0.315759 5.34885
-  position -17.9984 12.4678 20.137
+  orientation 0.540067 0.575791 0.613834 4.28589
+  position -2.59747 53.1228 8.12861
   follow "pioneer2"
 }
 Background {
@@ -1045,6 +1045,7 @@ DEF PIONEER2 DifferentialWheels {
       }
     ]
   }
+  controller "obstacle_odometry"
   battery [
     998661, 1e+06, 1e+06
   ]
@@ -1054,4 +1055,6 @@ DEF PIONEER2 DifferentialWheels {
   wheelRadius 0.0825
   speedUnit 0.1
   slipNoise 0.4
+  encoderNoise 0
+  encoderResolution 5
 }
