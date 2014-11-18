@@ -32,7 +32,7 @@ void MyRobot::run()
 {
     _posicion0=0;
     _posicion1= -9;
-    _posicion2= M_PI/4;
+    _posicion2= M_PI/4; //45 grados
     _state = 1;
 
     while (step(_time_step) != -1)

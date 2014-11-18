@@ -45,9 +45,9 @@ class MyRobot : public DifferentialWheels {
 
         /**
         * @brief moves the distance introduced in the direction of the angle desired
-        * @param the distance and the angle we want to follow
+        * @param distance_desired, the distance we want to follow
+        * @param angle_desired, the angle we want to follow
         * @return
-        *
         */
         void go_forward(double distance_desired, double angle_desired);
 
